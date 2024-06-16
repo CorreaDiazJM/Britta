@@ -9,7 +9,6 @@ const etiquetas = document.getElementsByClassName('etiquetas')[0];
 const publicaciones_barra = document.getElementsByClassName('publicaciones-barra')[0];
 const articulos_div = document.getElementsByClassName('articulos')[0];
 
-
 fetch('http://localhost:3000/etiquetas')
     .catch(err => console.log(err))
     .then(data => data.json())
